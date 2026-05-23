@@ -64,6 +64,7 @@ with Session(engine) as session:
     session.commit()
 
 
+
 with Session(engine) as session:
     stmt = select(Product).options(selectinload(Product.categories))
     products = session.scalars(stmt).all()
