@@ -1,0 +1,12 @@
+sqlalchemy
+    session.add(p1)
+    session.add(p2)
+    session.add(p3)
+    session.add(p4)
+    session.add(p5)
+    session.add(c1)
+    session.add(c2)
+    session.add(c3)
+    session.add(c4)
+
+    session.commit()
